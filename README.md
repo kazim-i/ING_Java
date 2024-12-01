@@ -1,6 +1,8 @@
 H2 Database is used. Admin user is created automatically with the start script. 
 
-Run the app with
+Public link to the jar file: https://drive.google.com/file/d/1YGDeNgX1DlePm_d9ikE6DcFxf6vaQ4XD/
+
+Run the app with 
 java -jar loanapi-0.0.1-SNAPSHOT.jar
 
 # Create Customer
