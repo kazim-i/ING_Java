@@ -17,4 +17,7 @@ curl -u admin:password123 -X GET http://localhost:8080/api/loans/customer/1 -H "
 # Pay loan
 curl -u admin:password123 -X POST http://localhost:8080/api/loans/1/pay -H "Content-Type: application/json" -d '{"amount": 600}'
 
+# List Installments
+curl -u admin:password123 -X GET http://localhost:8080/api/installments/loan/1 -H "Content-Type: application/json"
+
 Gradle and Java 21 is necessary to build the project.
