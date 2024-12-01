@@ -8,7 +8,7 @@ java -jar loanapi-0.0.1-SNAPSHOT.jar
 # Create Customer
 curl -u admin:password123 -X POST http://localhost:8080/api/customers -H "Content-Type: application/json" -d '{ "name": "John", "surname": "Doe", "creditLimit": 10000, "usedCreditLimit": 0 }'
 
-# Create Loan 1
+# Create Loan
 curl -u admin:password123 -X POST http://localhost:8080/api/loans/1 -H "Content-Type: application/json" -d '{ "loanAmount": 6000, "numberOfInstallments": 12, "interestRate": 0.2 }'
 
 # List loans
